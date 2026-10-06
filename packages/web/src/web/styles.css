@@ -1,0 +1,101 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-silver: #c4c4c4;
+  --color-silver-light: #d2d2d2;
+  --color-silver-dark: #b3b3b3;
+  --color-amber-fire: #ff8c00;
+  --color-charcoal: #212121;
+  --color-charcoal-soft: #2c2c2c;
+
+  --font-display: "Archivo", "Arial Narrow", sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+:root {
+  --background: #c4c4c4;
+  --foreground: #212121;
+}
+
+@layer base {
+  * {
+    border-color: rgba(33, 33, 33, 0.16);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-body);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background-color: #ff8c00;
+    color: #212121;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    line-height: 1.02;
+    letter-spacing: -0.02em;
+  }
+}
+
+@utility grid-blueprint {
+  background-image:
+    linear-gradient(to right, rgba(33, 33, 33, 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(33, 33, 33, 0.07) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+@utility grid-blueprint-dark {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+@utility label-mono {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+}
+
+/* Scroll + load reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

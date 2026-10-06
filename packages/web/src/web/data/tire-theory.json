@@ -1,0 +1,2145 @@
+{
+ "title": "Recursive Temporal Reshaping",
+ "subtitle": "The Tire Theory",
+ "abstract": [
+  {
+   "kind": "note",
+   "text": "The Recursive Temporal Reshaping Theory (RTRT), informally known as the Tire Theory, proposes that temporal evolution may be fundamentally recursive rather than strictly linear."
+  },
+  {
+   "kind": "p",
+   "text": "According to the theory, reality may repeatedly traverse a closed temporal structure. Each complete traversal constitutes a cycle. Although corresponding points in different cycles may possess extremely similar structures, the complete physical state of reality is not necessarily identical from one cycle to the next."
+  },
+  {
+   "kind": "lead",
+   "text": "The essential distinction is therefore:"
+  },
+  {
+   "kind": "note",
+   "text": "Recurrence of temporal structure ≠ repetition of complete physical state."
+  },
+  {
+   "kind": "p",
+   "text": "A cycle may closely resemble the preceding cycle while inheriting minute differences from it. These differences may be so small that they are effectively undetectable between adjacent cycles. However, if the reshaping accumulates, the divergence between cycles separated by a sufficiently large number of iterations may become significant."
+  },
+  {
+   "kind": "note",
+   "text": "The theory therefore proposes a universe characterized by recurrence without exact repetition."
+  },
+  {
+   "kind": "p",
+   "text": "The Tire Theory uses the image of a tire rolling along a closed path. Unlike a tire rolling along an infinite straight surface, a tire following a closed path eventually returns to the same geometrical position. One complete traversal constitutes one rotation of the temporal cycle."
+  },
+  {
+   "kind": "p",
+   "text": "The path itself may recur, but the physical state carried through that path may change."
+  },
+  {
+   "kind": "p",
+   "text": "At the point where one cycle ends and the next begins lies what the theory calls the Ultimate Beginning. The Ultimate Beginning is not a state, an attractor, or a final destination. It is the transactional moment at which the end of one cycle becomes the beginning of the next."
+  },
+  {
+   "kind": "lead",
+   "text": "The theory proposes that this transition is the fundamental invariant of the recursive process:"
+  },
+  {
+   "kind": "math",
+   "text": "Cₙ → UB → Cₙ₊₁"
+  },
+  {
+   "kind": "p",
+   "text": "where UB denotes the Ultimate Beginning."
+  },
+  {
+   "kind": "p",
+   "text": "The Ultimate Beginning is theoretically the only moment of the cycle that cannot change. Everything else may be reshaped."
+  },
+  {
+   "kind": "p",
+   "text": "The present formulation is speculative and does not constitute an established physical theory. Its purpose is to establish a coherent conceptual and mathematical framework from which a physical formulation might eventually be developed."
+  }
+ ],
+ "sections": [
+  {
+   "num": "1",
+   "title": "Introduction",
+   "blocks": [
+    {
+     "kind": "lead",
+     "text": "Time is commonly represented as a linear progression:"
+    },
+    {
+     "kind": "math",
+     "text": "Past → Present → Future"
+    },
+    {
+     "kind": "p",
+     "text": "This representation is extremely useful. It describes the ordering of events and corresponds closely to ordinary experience."
+    },
+    {
+     "kind": "p",
+     "text": "However, the representation of time as a line does not necessarily establish the fundamental structure of temporal evolution."
+    },
+    {
+     "kind": "lead",
+     "text": "The Tire Theory begins with a different question:"
+    },
+    {
+     "kind": "note",
+     "text": "What if temporal evolution is fundamentally recursive rather than fundamentally linear?"
+    },
+    {
+     "kind": "p",
+     "text": "A recursive temporal structure does not necessarily imply that the universe repeats identical events."
+    },
+    {
+     "kind": "lead",
+     "text": "A perfectly repetitive system would require:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊₁ = Sₙ"
+    },
+    {
+     "kind": "p",
+     "text": "where Sₙ represents the complete physical state associated with cycle n."
+    },
+    {
+     "kind": "lead",
+     "text": "The Tire Theory instead proposes:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊₁ ≠ Sₙ"
+    },
+    {
+     "kind": "lead",
+     "text": "while allowing corresponding structures to remain extremely similar:"
+    },
+    {
+     "kind": "math",
+     "text": "P(Sₙ₊₁) ≈ P(Sₙ)"
+    },
+    {
+     "kind": "p",
+     "text": "where P represents a selected structural property of the system."
+    },
+    {
+     "kind": "p",
+     "text": "The distinction is fundamental."
+    },
+    {
+     "kind": "p",
+     "text": "The theory does not propose that reality repeatedly becomes exactly what it was."
+    },
+    {
+     "kind": "p",
+     "text": "It proposes that reality repeatedly passes through a related temporal structure while that structure is progressively reshaped."
+    },
+    {
+     "kind": "lead",
+     "text": "Thus:"
+    },
+    {
+     "kind": "note",
+     "text": "The cycle repeats. The state is reshaped."
+    }
+   ]
+  },
+  {
+   "num": "2",
+   "title": "The Tire Analogy",
+   "blocks": [
+    {
+     "kind": "p",
+     "text": "The central analogy of the theory is a tire."
+    },
+    {
+     "kind": "p",
+     "text": "Imagine a tire moving around a closed path."
+    },
+    {
+     "kind": "p",
+     "text": "The tire possesses its own rotational structure, while the path determines where that rotation occurs."
+    },
+    {
+     "kind": "p",
+     "text": "If the path is open and extends indefinitely in a straight line, the tire will never return to the same position. Its motion therefore has no inherent endpoint."
+    },
+    {
+     "kind": "p",
+     "text": "If the path is closed, however, the tire eventually returns to the position from which its traversal began."
+    },
+    {
+     "kind": "p",
+     "text": "The important feature is not that the tire returns to the same location."
+    },
+    {
+     "kind": "note",
+     "text": "The important feature is that the tire may return to the same location without returning to the same complete physical state."
+    },
+    {
+     "kind": "p",
+     "text": "Consider a physical tire moving around a closed track."
+    },
+    {
+     "kind": "lead",
+     "text": "During one traversal:"
+    },
+    {
+     "kind": "list",
+     "items": [
+      "the tire experiences friction",
+      "the tire loses microscopic amounts of material",
+      "the surface undergoes microscopic deformation",
+      "heat is generated",
+      "particles are displaced",
+      "the environment changes",
+      "the tire itself changes."
+     ]
+    },
+    {
+     "kind": "p",
+     "text": "After one complete traversal, the tire has returned to approximately the same geometrical position."
+    },
+    {
+     "kind": "p",
+     "text": "But it is not physically identical to the tire that began the traversal."
+    },
+    {
+     "kind": "lead",
+     "text": "Therefore:"
+    },
+    {
+     "kind": "note",
+     "text": "Same position ≠ same state"
+    },
+    {
+     "kind": "lead",
+     "text": "and:"
+    },
+    {
+     "kind": "note",
+     "text": "Recurring motion ≠ recurring physical state"
+    },
+    {
+     "kind": "p",
+     "text": "This provides the central intuition of Tire Theory."
+    },
+    {
+     "kind": "lead",
+     "text": "The analogy can be summarized as:"
+    },
+    {
+     "kind": "note",
+     "text": "Closed path + continuous transformation = recurrence without exact repetition"
+    },
+    {
+     "kind": "p",
+     "text": "The tire is therefore not intended as a literal representation of the universe."
+    },
+    {
+     "kind": "p",
+     "text": "It is a conceptual model illustrating how a process can return to a recurring position while its physical state continues to evolve."
+    }
+   ]
+  },
+  {
+   "num": "3",
+   "title": "The Closed Temporal Path",
+   "blocks": [
+    {
+     "kind": "p",
+     "text": "The temporal structure proposed by Tire Theory is represented conceptually by a closed path."
+    },
+    {
+     "kind": "p",
+     "text": "Imagine a sphere possessing its own center of gravity."
+    },
+    {
+     "kind": "p",
+     "text": "A tire travels around the surface of that sphere along a closed trajectory."
+    },
+    {
+     "kind": "p",
+     "text": "The dimensions of the sphere and the tire are related such that one complete traversal of the relevant path corresponds to one complete rotation of the tire."
+    },
+    {
+     "kind": "p",
+     "text": "The exact geometry is only an analogy. The sphere does not necessarily represent physical spacetime, and the tire does not necessarily represent a physical object."
+    },
+    {
+     "kind": "p",
+     "text": "Its purpose is to illustrate an important distinction."
+    },
+    {
+     "kind": "lead",
+     "text": "A straight path would continue indefinitely:"
+    },
+    {
+     "kind": "math",
+     "text": "→ → → → → → ∞"
+    },
+    {
+     "kind": "lead",
+     "text": "A closed path instead returns to its starting position:"
+    },
+    {
+     "kind": "math",
+     "text": "↻"
+    },
+    {
+     "kind": "p",
+     "text": "The path therefore possesses a recurring geometrical structure."
+    },
+    {
+     "kind": "p",
+     "text": "Yet the state carried through that path can change."
+    },
+    {
+     "kind": "p",
+     "text": "Consequently, Tire Theory does not require a universe that repeatedly travels farther and farther from its beginning."
+    },
+    {
+     "kind": "p",
+     "text": "Instead, the universe may repeatedly traverse a closed temporal structure."
+    },
+    {
+     "kind": "note",
+     "text": "The apparent progression of time would therefore arise from state transformation along a recurring path."
+    },
+    {
+     "kind": "lead",
+     "text": "This produces the fundamental relationship:"
+    },
+    {
+     "kind": "note",
+     "text": "Closed temporal structure + evolving state = recursive temporal reshaping"
+    }
+   ]
+  },
+  {
+   "num": "4",
+   "title": "The Cycle",
+   "blocks": [
+    {
+     "kind": "note",
+     "text": "A cycle is one complete traversal of the recurring temporal path."
+    },
+    {
+     "kind": "note",
+     "text": "Let Cₙ represent cycle n."
+    },
+    {
+     "kind": "p",
+     "text": "A complete cycle begins at the Ultimate Beginning, progresses through its temporal evolution, and eventually reaches the same fundamental temporal boundary from which the next cycle begins."
+    },
+    {
+     "kind": "lead",
+     "text": "Conceptually:"
+    },
+    {
+     "kind": "math",
+     "text": "Cₙ: UB → evolution → UB"
+    },
+    {
+     "kind": "lead",
+     "text": "The next cycle is then:"
+    },
+    {
+     "kind": "math",
+     "text": "Cₙ₊₁: UB → evolution → UB"
+    },
+    {
+     "kind": "p",
+     "text": "The two cycles therefore share the same fundamental boundary while not necessarily possessing identical physical states."
+    },
+    {
+     "kind": "p",
+     "text": "One cycle does not replace the previous cycle as though reality were reset."
+    },
+    {
+     "kind": "p",
+     "text": "Instead, the next cycle emerges from the preceding one."
+    },
+    {
+     "kind": "lead",
+     "text": "The transition can therefore be represented as:"
+    },
+    {
+     "kind": "math",
+     "text": "Cₙ → UB → Cₙ₊₁"
+    },
+    {
+     "kind": "p",
+     "text": "The cycle is thus not merely a period of repetition."
+    },
+    {
+     "kind": "p",
+     "text": "It is a complete traversal through a recurring temporal structure."
+    }
+   ]
+  },
+  {
+   "num": "5",
+   "title": "The Beginning and End of a Cycle",
+   "blocks": [
+    {
+     "kind": "p",
+     "text": "Ordinarily, a beginning and an end are treated as two separate moments."
+    },
+    {
+     "kind": "p",
+     "text": "Under Tire Theory, they are better understood as two descriptions of the same temporal boundary."
+    },
+    {
+     "kind": "note",
+     "text": "The end of cycle n is simultaneously the beginning of cycle n + 1."
+    },
+    {
+     "kind": "lead",
+     "text": "Therefore:"
+    },
+    {
+     "kind": "math",
+     "text": "End(Cₙ) = Beginning(Cₙ₊₁)"
+    },
+    {
+     "kind": "lead",
+     "text": "The boundary can be written:"
+    },
+    {
+     "kind": "math",
+     "text": "Cₙ → UB → Cₙ₊₁"
+    },
+    {
+     "kind": "p",
+     "text": "The distinction between \"end\" and \"beginning\" depends on which cycle is being considered."
+    },
+    {
+     "kind": "note",
+     "text": "Viewed from cycle n, the boundary is its end."
+    },
+    {
+     "kind": "note",
+     "text": "Viewed from cycle n + 1, the same boundary is its beginning."
+    },
+    {
+     "kind": "p",
+     "text": "There are therefore not necessarily two separate moments."
+    },
+    {
+     "kind": "p",
+     "text": "There is one transition viewed from two temporal perspectives."
+    }
+   ]
+  },
+  {
+   "num": "6",
+   "title": "The Ultimate Beginning",
+   "blocks": [
+    {
+     "kind": "note",
+     "text": "The Ultimate Beginning is the central boundary of Tire Theory."
+    },
+    {
+     "kind": "p",
+     "text": "It must be distinguished carefully from an ordinary beginning."
+    },
+    {
+     "kind": "lead",
+     "text": "The Ultimate Beginning is not:"
+    },
+    {
+     "kind": "list",
+     "items": [
+      "the first event that ever occurred",
+      "a state toward which reality converges",
+      "an attractor",
+      "a final state",
+      "a destination",
+      "a point at infinity",
+      "or necessarily the earliest moment in an absolute chronology."
+     ]
+    },
+    {
+     "kind": "note",
+     "text": "Instead, the Ultimate Beginning is the transactional moment between the end of one cycle and the beginning of the next."
+    },
+    {
+     "kind": "lead",
+     "text": "Formally:"
+    },
+    {
+     "kind": "math",
+     "text": "Cₙ → UB → Cₙ₊₁"
+    },
+    {
+     "kind": "p",
+     "text": "The term \"Ultimate Beginning\" refers to the fact that every cycle begins at this same fundamental temporal boundary."
+    },
+    {
+     "kind": "p",
+     "text": "If the universe has undergone infinitely many cycles, there is no requirement for one particular cycle to be the first."
+    },
+    {
+     "kind": "p",
+     "text": "The Ultimate Beginning is therefore not necessarily the beginning of all existence."
+    },
+    {
+     "kind": "note",
+     "text": "It is the beginning of each cycle."
+    },
+    {
+     "kind": "p",
+     "text": "This distinction is essential."
+    }
+   ]
+  },
+  {
+   "num": "7",
+   "title": "The Invariance of the Ultimate Beginning",
+   "blocks": [
+    {
+     "kind": "p",
+     "text": "The most fundamental proposition concerning the Ultimate Beginning is that it is theoretically the only moment of the cycle that cannot change."
+    },
+    {
+     "kind": "p",
+     "text": "The physical state immediately before the boundary may change."
+    },
+    {
+     "kind": "p",
+     "text": "The physical state immediately after the boundary may change."
+    },
+    {
+     "kind": "p",
+     "text": "The structure of individual cycles may change."
+    },
+    {
+     "kind": "p",
+     "text": "The accumulated consequences of previous cycles may change."
+    },
+    {
+     "kind": "p",
+     "text": "But the transition itself remains invariant."
+    },
+    {
+     "kind": "lead",
+     "text": "Therefore:"
+    },
+    {
+     "kind": "math",
+     "text": "UB₁ = UB₂ = UB₃ = ⋯"
+    },
+    {
+     "kind": "p",
+     "text": "This does not mean that the physical state at every beginning is identical."
+    },
+    {
+     "kind": "note",
+     "text": "Rather, it means that the temporal boundary itself is invariant."
+    },
+    {
+     "kind": "lead",
+     "text": "The distinction is:"
+    },
+    {
+     "kind": "math",
+     "text": "UB ≠ Sₙ"
+    },
+    {
+     "kind": "p",
+     "text": "The Ultimate Beginning is not a physical state equivalent to the state of the universe."
+    },
+    {
+     "kind": "p",
+     "text": "It is the transition that relates the end of one cycle to the beginning of another."
+    },
+    {
+     "kind": "lead",
+     "text": "The fundamental principle is therefore:"
+    },
+    {
+     "kind": "note",
+     "text": "Everything may change except the boundary that permits the cycle to recur."
+    },
+    {
+     "kind": "p",
+     "text": "This gives the recursive structure a fixed temporal reference without requiring a fixed physical state."
+    }
+   ]
+  },
+  {
+   "num": "8",
+   "title": "The Big Bang and the Ultimate Beginning",
+   "blocks": [
+    {
+     "kind": "note",
+     "text": "Suppose our observable universe is currently within cycle X."
+    },
+    {
+     "kind": "p",
+     "text": "If each cycle begins with an event corresponding to the Big Bang, then the Big Bang would represent the manifestation of the Ultimate Beginning at the beginning of that cycle."
+    },
+    {
+     "kind": "lead",
+     "text": "Under this interpretation:"
+    },
+    {
+     "kind": "math",
+     "text": "Previous Cycle → Ultimate Beginning → Big Bang → Cycle X"
+    },
+    {
+     "kind": "p",
+     "text": "The Big Bang would therefore not necessarily be the absolute first event in existence."
+    },
+    {
+     "kind": "p",
+     "text": "It would be the beginning of the current cycle."
+    },
+    {
+     "kind": "p",
+     "text": "The question:"
+    },
+    {
+     "kind": "p",
+     "text": "\"What happened before the Big Bang?\""
+    },
+    {
+     "kind": "p",
+     "text": "would consequently be reformulated."
+    },
+    {
+     "kind": "lead",
+     "text": "Rather than requiring an ordinary event immediately preceding the Big Bang, the model would describe:"
+    },
+    {
+     "kind": "math",
+     "text": "End of previous cycle → UB → Big Bang"
+    },
+    {
+     "kind": "p",
+     "text": "The Ultimate Beginning is the transition."
+    },
+    {
+     "kind": "p",
+     "text": "The Big Bang is the manifestation of that transition within a particular cycle."
+    },
+    {
+     "kind": "p",
+     "text": "This distinction allows the Big Bang to function as a beginning without requiring it to be the first beginning ever."
+    }
+   ]
+  },
+  {
+   "num": "9",
+   "title": "State and Temporal Evolution",
+   "blocks": [
+    {
+     "kind": "note",
+     "text": "Let Sₙ represent the complete physical state of reality at a corresponding point in cycle n."
+    },
+    {
+     "kind": "lead",
+     "text": "A perfectly repetitive universe would satisfy:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊₁ = Sₙ"
+    },
+    {
+     "kind": "p",
+     "text": "Tire Theory does not require this."
+    },
+    {
+     "kind": "lead",
+     "text": "Instead:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊₁ ≠ Sₙ"
+    },
+    {
+     "kind": "p",
+     "text": "The next cycle inherits the previous cycle but is not identical to it."
+    },
+    {
+     "kind": "lead",
+     "text": "A general representation is:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊₁ = F(Sₙ, Δₙ)"
+    },
+    {
+     "kind": "lead",
+     "text": "where:"
+    },
+    {
+     "kind": "list",
+     "items": [
+      "Sₙ is the state associated with cycle n",
+      "F is the transformation governing temporal evolution",
+      "Δₙ represents the change inherited, generated, or otherwise introduced during the transition from one cycle to the next."
+     ]
+    },
+    {
+     "kind": "note",
+     "text": "The physical interpretation of Δₙ remains unresolved."
+    },
+    {
+     "kind": "lead",
+     "text": "It could involve:"
+    },
+    {
+     "kind": "list",
+     "items": [
+      "information",
+      "entropy",
+      "quantum correlations",
+      "geometrical differences",
+      "matter distribution",
+      "gravitational structure",
+      "boundary conditions",
+      "causal relationships",
+      "or another presently unknown quantity."
+     ]
+    },
+    {
+     "kind": "note",
+     "text": "The theory therefore establishes state inheritance without prematurely specifying the physical mechanism responsible for it."
+    }
+   ]
+  },
+  {
+   "num": "10",
+   "title": "Near-Identity Between Successive Cycles",
+   "blocks": [
+    {
+     "kind": "note",
+     "text": "An important characteristic of Tire Theory is that the difference between successive cycles is expected to be extremely small."
+    },
+    {
+     "kind": "p",
+     "text": "The theory does not require each cycle to be dramatically different from the previous one."
+    },
+    {
+     "kind": "lead",
+     "text": "Instead:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊₁ ≈ Sₙ"
+    },
+    {
+     "kind": "lead",
+     "text": "while still maintaining:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊₁ ≠ Sₙ"
+    },
+    {
+     "kind": "p",
+     "text": "The difference may be so small that it cannot be meaningfully observed by comparing two adjacent cycles."
+    },
+    {
+     "kind": "p",
+     "text": "This means that two neighboring cycles could be almost indistinguishable while still being physically different."
+    },
+    {
+     "kind": "p",
+     "text": "The important consequence is that the reshaping may only become apparent across a very large number of cycles."
+    },
+    {
+     "kind": "lead",
+     "text": "For example:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ ≈ Sₙ₊₁"
+    },
+    {
+     "kind": "lead",
+     "text": "and:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊₁ ≈ Sₙ₊₂"
+    },
+    {
+     "kind": "lead",
+     "text": "and:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊₂ ≈ Sₙ₊₃"
+    },
+    {
+     "kind": "lead",
+     "text": "yet, after sufficiently many cycles:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊ₖ ≠ Sₙ"
+    },
+    {
+     "kind": "p",
+     "text": "with the difference becoming increasingly significant as k grows."
+    },
+    {
+     "kind": "lead",
+     "text": "Conceptually:"
+    },
+    {
+     "kind": "math",
+     "text": "D(Sₙ₊₁, Sₙ) ≈ 0"
+    },
+    {
+     "kind": "lead",
+     "text": "while:"
+    },
+    {
+     "kind": "math",
+     "text": "D(Sₙ₊ₖ, Sₙ) ≫ D(Sₙ₊₁, Sₙ)"
+    },
+    {
+     "kind": "p",
+     "text": "for sufficiently large k."
+    },
+    {
+     "kind": "p",
+     "text": "Here D represents some appropriate measure of physical difference."
+    },
+    {
+     "kind": "note",
+     "text": "The theory therefore predicts not dramatic cycle-to-cycle replacement, but gradual accumulated reshaping."
+    }
+   ]
+  },
+  {
+   "num": "11",
+   "title": "Accumulated Reshaping",
+   "blocks": [
+    {
+     "kind": "p",
+     "text": "If the difference between adjacent cycles is extremely small, the long-term evolution of the universe may resemble a sequence of almost identical cycles."
+    },
+    {
+     "kind": "lead",
+     "text": "Consider:"
+    },
+    {
+     "kind": "math",
+     "text": "C₁ → C₂ → C₃ → C₄ → …"
+    },
+    {
+     "kind": "lead",
+     "text": "The differences between neighboring cycles may be nearly imperceptible:"
+    },
+    {
+     "kind": "math",
+     "text": "C₁ ≈ C₂ ≈ C₃ ≈ C₄"
+    },
+    {
+     "kind": "lead",
+     "text": "Yet this does not imply:"
+    },
+    {
+     "kind": "math",
+     "text": "C₁ = C∞"
+    },
+    {
+     "kind": "p",
+     "text": "The cumulative difference can increase over many iterations."
+    },
+    {
+     "kind": "p",
+     "text": "Thus: small change per cycle × many cycles = potentially significant reshaping"
+    },
+    {
+     "kind": "p",
+     "text": "This is one of the most important features of the theory."
+    },
+    {
+     "kind": "p",
+     "text": "The recursive structure remains stable enough to produce recurrence while allowing the physical realization of that structure to drift over extremely long timescales."
+    },
+    {
+     "kind": "p",
+     "text": "The universe can therefore remain recognizably recursive without being eternally identical."
+    }
+   ]
+  },
+  {
+   "num": "12",
+   "title": "Recurrence Without Repetition",
+   "blocks": [
+    {
+     "kind": "lead",
+     "text": "The central proposition of Tire Theory can be stated simply:"
+    },
+    {
+     "kind": "note",
+     "text": "A process may recur without reproducing its complete state."
+    },
+    {
+     "kind": "lead",
+     "text": "Exact repetition would require:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊ₖ = Sₙ"
+    },
+    {
+     "kind": "p",
+     "text": "for some cycle interval k."
+    },
+    {
+     "kind": "lead",
+     "text": "Tire Theory instead proposes:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊ₖ ≠ Sₙ"
+    },
+    {
+     "kind": "lead",
+     "text": "while some structural property remains approximately recurrent:"
+    },
+    {
+     "kind": "math",
+     "text": "P(Sₙ₊ₖ) ≈ P(Sₙ)"
+    },
+    {
+     "kind": "note",
+     "text": "The recurrence therefore belongs to the temporal structure, not necessarily to the complete physical state."
+    },
+    {
+     "kind": "lead",
+     "text": "This distinction can be expressed as:"
+    },
+    {
+     "kind": "note",
+     "text": "Recurring process ≠ recurring state"
+    },
+    {
+     "kind": "lead",
+     "text": "or more precisely:"
+    },
+    {
+     "kind": "note",
+     "text": "The recurrence is of the temporal process, not of the complete state."
+    },
+    {
+     "kind": "p",
+     "text": "The same broad sequence of structural relationships may therefore occur repeatedly while the precise physical realization changes."
+    }
+   ]
+  },
+  {
+   "num": "13",
+   "title": "Structural Recurrence",
+   "blocks": [
+    {
+     "kind": "note",
+     "text": "A structural recurrence occurs when a relevant property or relationship returns in a later cycle without requiring the entire physical state to return."
+    },
+    {
+     "kind": "lead",
+     "text": "For example, a recurring cycle may preserve:"
+    },
+    {
+     "kind": "list",
+     "items": [
+      "large-scale geometry",
+      "ordering of cosmological events",
+      "relationships between physical processes",
+      "broad causal organization",
+      "dynamical patterns",
+      "or another higher-order structure."
+     ]
+    },
+    {
+     "kind": "p",
+     "text": "The exact physical realization may nevertheless differ."
+    },
+    {
+     "kind": "lead",
+     "text": "Formally:"
+    },
+    {
+     "kind": "math",
+     "text": "P(Sₙ₊ₖ) ≈ P(Sₙ)"
+    },
+    {
+     "kind": "lead",
+     "text": "while:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊ₖ ≠ Sₙ"
+    },
+    {
+     "kind": "note",
+     "text": "The choice of P is therefore crucial."
+    },
+    {
+     "kind": "note",
+     "text": "Different choices of P would define different forms of recurrence."
+    },
+    {
+     "kind": "p",
+     "text": "The theory does not currently establish which structural properties of reality would recur."
+    },
+    {
+     "kind": "p",
+     "text": "That question belongs to a future physical formulation."
+    }
+   ]
+  },
+  {
+   "num": "14",
+   "title": "Historical Dependence",
+   "blocks": [
+    {
+     "kind": "p",
+     "text": "A recursive universe cannot simply erase the consequences of its previous cycles if the state of one cycle depends upon the state of another."
+    },
+    {
+     "kind": "note",
+     "text": "The present state would therefore possess historical dependence."
+    },
+    {
+     "kind": "lead",
+     "text": "A general representation is:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ = F(Sₙ₋₁, Sₙ₋₂, …)"
+    },
+    {
+     "kind": "lead",
+     "text": "A more compact representation introduces a memory variable:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊₁ = F(Sₙ, Mₙ)"
+    },
+    {
+     "kind": "p",
+     "text": "where Mₙ represents relevant consequences of previous states."
+    },
+    {
+     "kind": "p",
+     "text": "This does not require memory in the biological or conscious sense."
+    },
+    {
+     "kind": "p",
+     "text": "It refers to physical dependence."
+    },
+    {
+     "kind": "p",
+     "text": "A present state contains conditions that exist because of what happened previously."
+    },
+    {
+     "kind": "p",
+     "text": "Thus: The past may persist as physical consequence rather than conscious recollection."
+    }
+   ]
+  },
+  {
+   "num": "15",
+   "title": "Structural Memory",
+   "blocks": [
+    {
+     "kind": "note",
+     "text": "A system possesses structural memory when its present configuration depends upon its history."
+    },
+    {
+     "kind": "p",
+     "text": "The memory does not have to exist as a separate substance."
+    },
+    {
+     "kind": "p",
+     "text": "It may instead be distributed among physical degrees of freedom."
+    },
+    {
+     "kind": "lead",
+     "text": "For example:"
+    },
+    {
+     "kind": "math",
+     "text": "Mₙ₊₁ = G(Mₙ, Sₙ)"
+    },
+    {
+     "kind": "p",
+     "text": "where Mₙ represents whatever physical information or conditions remain relevant to future evolution."
+    },
+    {
+     "kind": "p",
+     "text": "Under Tire Theory, the universe could possess an analogous form of structural memory across cycles."
+    },
+    {
+     "kind": "p",
+     "text": "The next cycle would therefore not be an independent recreation of the previous one."
+    },
+    {
+     "kind": "p",
+     "text": "It would be the continuation of a history."
+    },
+    {
+     "kind": "lead",
+     "text": "This produces an important distinction:"
+    },
+    {
+     "kind": "note",
+     "text": "Reset ≠ recurrence"
+    },
+    {
+     "kind": "p",
+     "text": "A reset would erase the consequences of the previous cycle."
+    },
+    {
+     "kind": "p",
+     "text": "Recursive reshaping instead permits those consequences to influence what follows."
+    }
+   ]
+  },
+  {
+   "num": "16",
+   "title": "Time as Ordered Transformation",
+   "blocks": [
+    {
+     "kind": "p",
+     "text": "The Tire Theory treats time primarily as an ordered process of transformation."
+    },
+    {
+     "kind": "p",
+     "text": "The important question is therefore not merely:"
+    },
+    {
+     "kind": "p",
+     "text": "Where is a system in time?"
+    },
+    {
+     "kind": "p",
+     "text": "but:"
+    },
+    {
+     "kind": "p",
+     "text": "How does one state become another?"
+    },
+    {
+     "kind": "lead",
+     "text": "A basic temporal sequence is:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ → Sₙ₊₁"
+    },
+    {
+     "kind": "p",
+     "text": "The arrow represents temporal ordering."
+    },
+    {
+     "kind": "p",
+     "text": "The theory therefore treats time as inseparable from state transformation."
+    },
+    {
+     "kind": "p",
+     "text": "This does not necessarily mean that time is \"caused\" by physical change."
+    },
+    {
+     "kind": "p",
+     "text": "Rather, it identifies temporal evolution with the ordered relationship between physical states."
+    },
+    {
+     "kind": "lead",
+     "text": "A conceptual formulation is:"
+    },
+    {
+     "kind": "note",
+     "text": "Time is the ordered evolution through which one physical state becomes another while retaining some relationship to its history."
+    },
+    {
+     "kind": "p",
+     "text": "Whether this description corresponds to fundamental physical reality remains an open question."
+    }
+   ]
+  },
+  {
+   "num": "17",
+   "title": "The Arrow of Time",
+   "blocks": [
+    {
+     "kind": "p",
+     "text": "A recursive temporal structure raises the question of why time appears to have a direction."
+    },
+    {
+     "kind": "p",
+     "text": "If the temporal path is closed, why do observers experience time as progressing from past to future rather than moving freely around the cycle?"
+    },
+    {
+     "kind": "note",
+     "text": "Tire Theory proposes that the answer may lie in state transformation."
+    },
+    {
+     "kind": "p",
+     "text": "The universe does not merely occupy a position on the temporal path."
+    },
+    {
+     "kind": "p",
+     "text": "It carries a physical state that evolves along that path."
+    },
+    {
+     "kind": "lead",
+     "text": "Therefore:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ → Sₙ₊₁"
+    },
+    {
+     "kind": "lead",
+     "text": "is not necessarily equivalent to:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊₁ → Sₙ"
+    },
+    {
+     "kind": "p",
+     "text": "If physical information, correlations, entropy, or other quantities distinguish the two directions, then a local arrow of time can emerge even within a globally recurring structure."
+    },
+    {
+     "kind": "p",
+     "text": "The closedness of the temporal path therefore does not automatically imply that temporal experience should be reversible."
+    },
+    {
+     "kind": "p",
+     "text": "A closed path can still contain directed evolution."
+    }
+   ]
+  },
+  {
+   "num": "18",
+   "title": "Entropy",
+   "blocks": [
+    {
+     "kind": "p",
+     "text": "Any physical formulation of Tire Theory must confront entropy."
+    },
+    {
+     "kind": "p",
+     "text": "If successive cycles inherit consequences from preceding cycles, it must be determined what happens to entropy across the cycle boundary."
+    },
+    {
+     "kind": "lead",
+     "text": "Possible models include:"
+    },
+    {
+     "kind": "list",
+     "items": [
+      "entropy accumulates across cycles",
+      "entropy is redistributed",
+      "entropy is transformed",
+      "entropy undergoes some form of cyclic behavior",
+      "entropy is conserved in a generalized formulation",
+      "another mechanism exists that is not currently understood."
+     ]
+    },
+    {
+     "kind": "lead",
+     "text": "A generalized entropy quantity could be represented as:"
+    },
+    {
+     "kind": "math",
+     "text": "Hₙ₊₁ = G(Hₙ, Sₙ)"
+    },
+    {
+     "kind": "p",
+     "text": "However, no specific entropy behavior should be assumed at the conceptual stage."
+    },
+    {
+     "kind": "p",
+     "text": "The tire analogy suggests accumulated change because a physical tire wears over repeated motion."
+    },
+    {
+     "kind": "p",
+     "text": "But the universe is not a tire, and the analogy cannot establish cosmological entropy behavior."
+    },
+    {
+     "kind": "p",
+     "text": "Therefore entropy remains an unresolved component of the theory."
+    }
+   ]
+  },
+  {
+   "num": "19",
+   "title": "Information as a Possible Inherited Quantity",
+   "blocks": [
+    {
+     "kind": "note",
+     "text": "One candidate for Δₙ is information."
+    },
+    {
+     "kind": "p",
+     "text": "If information generated during one cycle remains physically represented in subsequent cycles, then the universe possesses a form of cross-cycle structural memory."
+    },
+    {
+     "kind": "lead",
+     "text": "A possible representation is:"
+    },
+    {
+     "kind": "math",
+     "text": "Iₙ₊₁ = G(Iₙ, Sₙ)"
+    },
+    {
+     "kind": "p",
+     "text": "where Iₙ represents retained information."
+    },
+    {
+     "kind": "p",
+     "text": "However, this does not establish that information is the actual inherited quantity."
+    },
+    {
+     "kind": "lead",
+     "text": "Several questions remain:"
+    },
+    {
+     "kind": "list",
+     "items": [
+      "What constitutes information at the fundamental level?",
+      "Is information conserved?",
+      "Can information survive a cosmological transition?",
+      "In what physical degrees of freedom would it be represented?",
+      "Does information influence the next cycle directly?",
+      "Is information itself fundamental or emergent?"
+     ]
+    },
+    {
+     "kind": "lead",
+     "text": "Therefore:"
+    },
+    {
+     "kind": "note",
+     "text": "Information is a candidate mechanism, not an established component of Tire Theory."
+    }
+   ]
+  },
+  {
+   "num": "20",
+   "title": "Causality and Recursive Time",
+   "blocks": [
+    {
+     "kind": "p",
+     "text": "Recursive temporal structure does not necessarily require backward causation."
+    },
+    {
+     "kind": "lead",
+     "text": "The simplest formulation remains forward-directed:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ → Sₙ₊₁"
+    },
+    {
+     "kind": "note",
+     "text": "Cycle n + 1 depends upon cycle n, but cycle n + 1 does not therefore cause cycle n."
+    },
+    {
+     "kind": "p",
+     "text": "The recursion exists because the temporal process eventually returns to a corresponding structural position while retaining consequences of its history."
+    },
+    {
+     "kind": "lead",
+     "text": "Thus:"
+    },
+    {
+     "kind": "note",
+     "text": "Recursion does not require time to run backward."
+    },
+    {
+     "kind": "p",
+     "text": "However, a globally closed temporal structure may require a more sophisticated treatment of causality."
+    },
+    {
+     "kind": "lead",
+     "text": "A mature physical theory would therefore need to establish whether recursion is fundamentally:"
+    },
+    {
+     "kind": "list",
+     "items": [
+      "dynamical",
+      "geometrical",
+      "informational",
+      "causal",
+      "or some combination of these."
+     ]
+    }
+   ]
+  },
+  {
+   "num": "21",
+   "title": "The Global Structure of the Theory",
+   "blocks": [
+    {
+     "kind": "lead",
+     "text": "The complete conceptual structure can now be represented as:"
+    },
+    {
+     "kind": "math",
+     "text": "Cₙ → UB → Cₙ₊₁ → UB → Cₙ₊₂ → UB → …"
+    },
+    {
+     "kind": "p",
+     "text": "Each cycle contains its own evolution."
+    },
+    {
+     "kind": "p",
+     "text": "At every transition, the system reaches the same fundamental temporal boundary."
+    },
+    {
+     "kind": "lead",
+     "text": "Yet the state of the universe may be slightly reshaped:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊₁ ≈ Sₙ"
+    },
+    {
+     "kind": "lead",
+     "text": "while:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊₁ ≠ Sₙ"
+    },
+    {
+     "kind": "lead",
+     "text": "After many cycles:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊ₖ ≠ Sₙ"
+    },
+    {
+     "kind": "lead",
+     "text": "and potentially:"
+    },
+    {
+     "kind": "math",
+     "text": "D(Sₙ₊ₖ, Sₙ) ≫ D(Sₙ₊₁, Sₙ)"
+    },
+    {
+     "kind": "p",
+     "text": "The temporal path therefore remains recurrent while the physical realization evolves."
+    },
+    {
+     "kind": "p",
+     "text": "This is the central architecture of Recursive Temporal Reshaping."
+    }
+   ]
+  },
+  {
+   "num": "22",
+   "title": "Mathematical Framework",
+   "blocks": [
+    {
+     "kind": "lead",
+     "text": "A more complete mathematical formulation could represent the state of reality using a state vector:"
+    },
+    {
+     "kind": "math",
+     "text": "Xₙ = (Sₙ, Mₙ, Hₙ, Iₙ)"
+    },
+    {
+     "kind": "lead",
+     "text": "where:"
+    },
+    {
+     "kind": "list",
+     "items": [
+      "Sₙ represents the physical configuration",
+      "Mₙ represents structural memory",
+      "Hₙ represents entropy or an analogous measure of irreversibility",
+      "Iₙ represents retained information."
+     ]
+    },
+    {
+     "kind": "lead",
+     "text": "The recursive transformation can then be represented as:"
+    },
+    {
+     "kind": "math",
+     "text": "Xₙ₊₁ = ℱ(Xₙ)"
+    },
+    {
+     "kind": "note",
+     "text": "The cycle index n identifies which traversal of the closed temporal path is being considered."
+    },
+    {
+     "kind": "lead",
+     "text": "A structural recurrence criterion could be expressed as:"
+    },
+    {
+     "kind": "math",
+     "text": "D(P(Xₙ₊ₖ), P(Xₙ)) < ε"
+    },
+    {
+     "kind": "lead",
+     "text": "where:"
+    },
+    {
+     "kind": "list",
+     "items": [
+      "P extracts the structural properties being compared",
+      "D measures their difference",
+      "ε defines the tolerance within which the structures are considered recurrent."
+     ]
+    },
+    {
+     "kind": "lead",
+     "text": "The key requirement is not:"
+    },
+    {
+     "kind": "math",
+     "text": "ℱᵏ(Xₙ) = Xₙ"
+    },
+    {
+     "kind": "lead",
+     "text": "but rather:"
+    },
+    {
+     "kind": "math",
+     "text": "ℱᵏ(Xₙ) ≠ Xₙ"
+    },
+    {
+     "kind": "lead",
+     "text": "while:"
+    },
+    {
+     "kind": "math",
+     "text": "P(ℱᵏ(Xₙ)) ≈ P(Xₙ)"
+    },
+    {
+     "kind": "p",
+     "text": "The theory therefore seeks a class of dynamical systems capable of producing:"
+    },
+    {
+     "kind": "p",
+     "text": "structural recurrence + cumulative state transformation"
+    }
+   ]
+  },
+  {
+   "num": "23",
+   "title": "The Fundamental Propositions",
+   "blocks": [
+    {
+     "kind": "p",
+     "text": "The theory can be summarized through the following propositions."
+    },
+    {
+     "kind": "prop",
+     "text": "Proposition 1",
+     "sub": "Closed Temporal Structure"
+    },
+    {
+     "kind": "p",
+     "text": "Temporal evolution may possess a closed path through which reality repeatedly traverses a corresponding structural position."
+    },
+    {
+     "kind": "prop",
+     "text": "Proposition 2",
+     "sub": "Cycle"
+    },
+    {
+     "kind": "p",
+     "text": "One complete traversal of this path constitutes one cycle."
+    },
+    {
+     "kind": "prop",
+     "text": "Proposition 3",
+     "sub": "State Inheritance"
+    },
+    {
+     "kind": "p",
+     "text": "The state of one cycle influences the state of the following cycle."
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊₁ = F(Sₙ, Δₙ)"
+    },
+    {
+     "kind": "prop",
+     "text": "Proposition 4",
+     "sub": "Non-Identity"
+    },
+    {
+     "kind": "p",
+     "text": "Successive cycles need not possess identical complete physical states."
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊₁ ≠ Sₙ"
+    },
+    {
+     "kind": "prop",
+     "text": "Proposition 5",
+     "sub": "Near-Identity"
+    },
+    {
+     "kind": "p",
+     "text": "The difference between successive cycles may be extremely small."
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊₁ ≈ Sₙ"
+    },
+    {
+     "kind": "prop",
+     "text": "Proposition 6",
+     "sub": "Structural Recurrence"
+    },
+    {
+     "kind": "p",
+     "text": "Corresponding structural properties may recur across cycles."
+    },
+    {
+     "kind": "math",
+     "text": "P(Sₙ₊ₖ) ≈ P(Sₙ)"
+    },
+    {
+     "kind": "prop",
+     "text": "Proposition 7",
+     "sub": "Accumulated Reshaping"
+    },
+    {
+     "kind": "p",
+     "text": "Small differences may accumulate over sufficiently many cycles."
+    },
+    {
+     "kind": "math",
+     "text": "D(Sₙ₊ₖ, Sₙ) ≫ D(Sₙ₊₁, Sₙ)"
+    },
+    {
+     "kind": "p",
+     "text": "for sufficiently large k."
+    },
+    {
+     "kind": "prop",
+     "text": "Proposition 8",
+     "sub": "Historical Dependence"
+    },
+    {
+     "kind": "p",
+     "text": "Later states may retain physical consequences of earlier states."
+    },
+    {
+     "kind": "prop",
+     "text": "Proposition 9",
+     "sub": "Ultimate Beginning"
+    },
+    {
+     "kind": "p",
+     "text": "The Ultimate Beginning is the invariant temporal transition between the end of one cycle and the beginning of the next."
+    },
+    {
+     "kind": "math",
+     "text": "Cₙ → UB → Cₙ₊₁"
+    },
+    {
+     "kind": "prop",
+     "text": "Proposition 10",
+     "sub": "Invariance of the Boundary"
+    },
+    {
+     "kind": "p",
+     "text": "The Ultimate Beginning is theoretically invariant across cycles."
+    },
+    {
+     "kind": "math",
+     "text": "UB₁ = UB₂ = UB₃ = ⋯"
+    },
+    {
+     "kind": "prop",
+     "text": "Proposition 11",
+     "sub": "No Necessary First Cycle"
+    },
+    {
+     "kind": "p",
+     "text": "The existence of an Ultimate Beginning does not require the existence of a first cycle."
+    },
+    {
+     "kind": "prop",
+     "text": "Proposition 12",
+     "sub": "No Exact Reset"
+    },
+    {
+     "kind": "p",
+     "text": "The transition between cycles does not necessarily erase the consequences of previous cycles."
+    }
+   ]
+  },
+  {
+   "num": "24",
+   "title": "What the Theory Does Not Claim",
+   "blocks": [
+    {
+     "kind": "lead",
+     "text": "The Tire Theory does not currently establish that:"
+    },
+    {
+     "kind": "list",
+     "items": [
+      "the universe definitely possesses a closed temporal path",
+      "the Big Bang has occurred in previous cycles",
+      "the universe is eternal",
+      "information survives every cycle",
+      "entropy is conserved across cycles",
+      "the universe repeats its history",
+      "the universe returns to an identical physical state",
+      "the Ultimate Beginning is an attractor",
+      "the Ultimate Beginning is a physical state",
+      "time literally has the geometry of a sphere",
+      "or that the theory is currently supported by empirical evidence."
+     ]
+    },
+    {
+     "kind": "p",
+     "text": "These are questions that require a physical formulation and observational evidence."
+    },
+    {
+     "kind": "p",
+     "text": "The tire and sphere are conceptual models."
+    },
+    {
+     "kind": "p",
+     "text": "They illustrate the proposed relationship between recurrence, closure, and transformation."
+    },
+    {
+     "kind": "p",
+     "text": "They are not themselves evidence for the theory."
+    }
+   ]
+  },
+  {
+   "num": "25",
+   "title": "From Conceptual Model to Physical Theory",
+   "blocks": [
+    {
+     "kind": "p",
+     "text": "For Tire Theory to become a physical theory, several fundamental problems must eventually be solved."
+    }
+   ]
+  },
+  {
+   "num": "25.1",
+   "title": "The State Space",
+   "blocks": [
+    {
+     "kind": "note",
+     "text": "What exactly does Sₙ represent?"
+    },
+    {
+     "kind": "lead",
+     "text": "It could represent:"
+    },
+    {
+     "kind": "list",
+     "items": [
+      "the complete physical state of the universe",
+      "a cosmological state",
+      "a quantum state",
+      "spacetime geometry",
+      "a set of fundamental fields",
+      "or something more fundamental."
+     ]
+    },
+    {
+     "kind": "p",
+     "text": "The theory currently does not determine which interpretation is correct."
+    }
+   ]
+  },
+  {
+   "num": "25.2",
+   "title": "The Evolution Operator",
+   "blocks": [
+    {
+     "kind": "note",
+     "text": "What is F?"
+    },
+    {
+     "kind": "p",
+     "text": "Is it deterministic?"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊₁ = F(Sₙ, Δₙ)"
+    },
+    {
+     "kind": "p",
+     "text": "Or stochastic?"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊₁ ~ P(Sₙ₊₁ | Sₙ)"
+    },
+    {
+     "kind": "p",
+     "text": "A physical theory must specify the mechanism."
+    }
+   ]
+  },
+  {
+   "num": "25.3",
+   "title": "The Inherited Quantity",
+   "blocks": [
+    {
+     "kind": "note",
+     "text": "What does Δₙ represent?"
+    },
+    {
+     "kind": "lead",
+     "text": "Is it:"
+    },
+    {
+     "kind": "list",
+     "items": [
+      "information",
+      "entropy",
+      "geometry",
+      "quantum correlations",
+      "matter",
+      "causal structure",
+      "or another physical quantity?"
+     ]
+    },
+    {
+     "kind": "p",
+     "text": "This remains unresolved."
+    }
+   ]
+  },
+  {
+   "num": "25.4",
+   "title": "The Cycle",
+   "blocks": [
+    {
+     "kind": "p",
+     "text": "What physically defines one cycle?"
+    },
+    {
+     "kind": "p",
+     "text": "The theory currently defines a cycle geometrically and conceptually as one complete traversal of the recurring temporal path."
+    },
+    {
+     "kind": "p",
+     "text": "A physical theory must identify the corresponding observable or mathematical criterion."
+    }
+   ]
+  },
+  {
+   "num": "25.5",
+   "title": "The Ultimate Beginning",
+   "blocks": [
+    {
+     "kind": "p",
+     "text": "The Ultimate Beginning must be mathematically represented as a transition rather than prematurely identified with a state."
+    },
+    {
+     "kind": "lead",
+     "text": "The central relation is:"
+    },
+    {
+     "kind": "math",
+     "text": "End(Cₙ) → UB → Beginning(Cₙ₊₁)"
+    },
+    {
+     "kind": "p",
+     "text": "The theory must eventually determine what physical conditions define this transition."
+    }
+   ]
+  },
+  {
+   "num": "25.6",
+   "title": "The Arrow of Time",
+   "blocks": [
+    {
+     "kind": "p",
+     "text": "The theory must explain why temporal evolution is experienced as directed even if the underlying temporal structure is closed."
+    }
+   ]
+  },
+  {
+   "num": "25.7",
+   "title": "Observational Consequences",
+   "blocks": [
+    {
+     "kind": "p",
+     "text": "Most importantly, Tire Theory must produce predictions capable of distinguishing it from competing models."
+    },
+    {
+     "kind": "p",
+     "text": "Without observational consequences, it remains a conceptual hypothesis rather than an established physical theory."
+    }
+   ]
+  },
+  {
+   "num": "26",
+   "title": "The Central Question",
+   "blocks": [
+    {
+     "kind": "p",
+     "text": "The Tire Theory ultimately asks whether the global structure of temporal evolution is better represented by an open path or a closed one."
+    },
+    {
+     "kind": "lead",
+     "text": "An open temporal model can be represented as:"
+    },
+    {
+     "kind": "math",
+     "text": "S₀ → S₁ → S₂ → … → ∞"
+    },
+    {
+     "kind": "lead",
+     "text": "A closed recursive model can instead be represented as:"
+    },
+    {
+     "kind": "math",
+     "text": "Cₙ → UB → Cₙ₊₁ → UB → Cₙ₊₂ → …"
+    },
+    {
+     "kind": "lead",
+     "text": "The crucial distinction is that the second model does not require:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊₁ = Sₙ"
+    },
+    {
+     "kind": "lead",
+     "text": "Instead:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊₁ ≈ Sₙ"
+    },
+    {
+     "kind": "p",
+     "text": "with small differences accumulating across cycles."
+    },
+    {
+     "kind": "p",
+     "text": "The fundamental question is therefore not simply whether the universe \"repeats.\""
+    },
+    {
+     "kind": "lead",
+     "text": "It is:"
+    },
+    {
+     "kind": "note",
+     "text": "Can reality repeatedly traverse the same fundamental temporal boundary while continuously reshaping the physical state carried through the cycle?"
+    },
+    {
+     "kind": "p",
+     "text": "If the answer were yes, then the universe would neither be a perfectly repeating circle nor an entirely open linear progression."
+    },
+    {
+     "kind": "note",
+     "text": "It would be a closed temporal process with evolving physical states."
+    }
+   ]
+  },
+  {
+   "num": "27",
+   "title": "Conclusion",
+   "blocks": [
+    {
+     "kind": "p",
+     "text": "The Recursive Temporal Reshaping Theory begins with a simple distinction."
+    },
+    {
+     "kind": "p",
+     "text": "A process can return to where it began without becoming what it was."
+    },
+    {
+     "kind": "p",
+     "text": "A tire travelling around a closed path can complete one traversal and return to its original position while its physical condition has changed."
+    },
+    {
+     "kind": "p",
+     "text": "The same conceptual relationship may, in principle, apply to temporal evolution."
+    },
+    {
+     "kind": "p",
+     "text": "Reality could repeatedly traverse a closed temporal structure while each successive cycle differs slightly from the previous one."
+    },
+    {
+     "kind": "lead",
+     "text": "Thus:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊₁ ≈ Sₙ"
+    },
+    {
+     "kind": "lead",
+     "text": "but:"
+    },
+    {
+     "kind": "math",
+     "text": "Sₙ₊₁ ≠ Sₙ"
+    },
+    {
+     "kind": "p",
+     "text": "The differences between neighboring cycles may be almost insignificant."
+    },
+    {
+     "kind": "lead",
+     "text": "Across a sufficiently large number of cycles, however, those differences may accumulate:"
+    },
+    {
+     "kind": "math",
+     "text": "D(Sₙ₊ₖ, Sₙ) ≫ D(Sₙ₊₁, Sₙ)"
+    },
+    {
+     "kind": "p",
+     "text": "The recurrence therefore does not require repetition."
+    },
+    {
+     "kind": "p",
+     "text": "It requires only that the underlying temporal structure recur."
+    },
+    {
+     "kind": "p",
+     "text": "The universe would not necessarily replay its history."
+    },
+    {
+     "kind": "p",
+     "text": "It would repeatedly pass through a related temporal structure while carrying forward the consequences of previous cycles."
+    },
+    {
+     "kind": "note",
+     "text": "At the center of this structure lies the Ultimate Beginning."
+    },
+    {
+     "kind": "p",
+     "text": "The Ultimate Beginning is not a state toward which reality travels."
+    },
+    {
+     "kind": "p",
+     "text": "It is not an attractor."
+    },
+    {
+     "kind": "p",
+     "text": "It is not an endpoint."
+    },
+    {
+     "kind": "lead",
+     "text": "It is the transactional moment between cycles:"
+    },
+    {
+     "kind": "math",
+     "text": "Cₙ → UB → Cₙ₊₁"
+    },
+    {
+     "kind": "p",
+     "text": "The end of one cycle becomes the beginning of the next."
+    },
+    {
+     "kind": "lead",
+     "text": "The boundary remains invariant:"
+    },
+    {
+     "kind": "math",
+     "text": "UB₁ = UB₂ = UB₃ = ⋯"
+    },
+    {
+     "kind": "p",
+     "text": "while the physical state surrounding that boundary may continually change."
+    },
+    {
+     "kind": "lead",
+     "text": "This produces the fundamental principle of the theory:"
+    },
+    {
+     "kind": "note",
+     "text": "Everything changes except the boundary that allows the cycle to recur."
+    },
+    {
+     "kind": "p",
+     "text": "If the Big Bang represents the beginning of our current cycle, then it may be understood as the manifestation of the Ultimate Beginning within that cycle."
+    },
+    {
+     "kind": "p",
+     "text": "There need not be an absolute first Big Bang."
+    },
+    {
+     "kind": "lead",
+     "text": "There may instead be:"
+    },
+    {
+     "kind": "math",
+     "text": "Cycle → Ultimate Beginning → Cycle → Ultimate Beginning → Cycle → …"
+    },
+    {
+     "kind": "p",
+     "text": "Each beginning would be familiar in structure without being required to reproduce the complete physical conditions of previous beginnings."
+    },
+    {
+     "kind": "p",
+     "text": "The cycle repeats."
+    },
+    {
+     "kind": "p",
+     "text": "The state is reshaped."
+    },
+    {
+     "kind": "lead",
+     "text": "And therefore the central insight of Recursive Temporal Reshaping is:"
+    },
+    {
+     "kind": "note",
+     "text": "Recurrence does not require repetition."
+    },
+    {
+     "kind": "p",
+     "text": "A recursive universe need not replay its history."
+    },
+    {
+     "kind": "p",
+     "text": "It may repeatedly reconstruct related structures while carrying the consequences of everything that came before."
+    },
+    {
+     "kind": "p",
+     "text": "The tire returns."
+    },
+    {
+     "kind": "p",
+     "text": "The tire changes."
+    },
+    {
+     "kind": "p",
+     "text": "The path returns."
+    },
+    {
+     "kind": "p",
+     "text": "The state changes."
+    },
+    {
+     "kind": "p",
+     "text": "The boundary remains."
+    },
+    {
+     "kind": "p",
+     "text": "That is the essence of the Tire Theory."
+    }
+   ]
+  }
+ ]
+}
